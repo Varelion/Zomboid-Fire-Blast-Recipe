@@ -2,5 +2,8 @@ version=1
 id=2961074129
 title=Engineer Fire Bomb W/ Glass Bottles
 description=This simply allows you to use glass bottles for the Engineer's 'Fire Bomb' recipe.
+
+Mod ID: Engineer Fire Bomb W/ Glass Bottles
+Workshop ID: 2961074129
 tags=Build 41;Balance;Items;Multiplayer;Realistic;Weapons
 visibility=public
