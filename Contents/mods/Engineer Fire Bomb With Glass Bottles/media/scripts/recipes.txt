@@ -2629,7 +2629,7 @@ module Base
 
     recipe Make Flame bomb
     {
-       [Recipe.GetItemTypes.Petrol]=4,
+       [Recipe.GetItemTypes.Petrol]=1,
        RippedSheets/RippedSheetsDirty/DenimStrips/DenimStripsDirty,
        WaterBottleEmpty/WineEmpty/WineEmpty2/WhiskeyEmpty/BeerEmpty/PopBottleEmpty,
 
