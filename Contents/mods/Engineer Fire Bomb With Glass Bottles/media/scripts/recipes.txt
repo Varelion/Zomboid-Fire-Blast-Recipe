@@ -1,0 +1,47 @@
+    recipe Make Flame bomb
+    {
+       destroy [Recipe.GetItemTypes.Liquor],
+       RippedSheets/RippedSheetsDirty/DenimStrips/DenimStripsDirty,
+
+       Result:FlameTrap,
+       Time:80.0,
+       NeedToBeLearn:true,
+       Category:Engineer,
+       OnTest:Recipe.OnTest.FullLiquor,
+    }
+
+    recipe Make Flame bomb
+    {
+       WineEmpty/WineEmpty2/WhiskeyEmpty/BeerEmpty,
+       RippedSheets/RippedSheetsDirty/DenimStrips/DenimStripsDirty,
+       [Recipe.GetItemTypes.Petrol]=1,
+
+       Result:FlameTrap,
+       Time:80.0,
+       NeedToBeLearn:true,
+       Category:Engineer,
+    }
+
+    recipe Make Flame bomb
+    {
+       destroy WinePetrol/WhiskeyPetrol,
+       RippedSheets/RippedSheetsDirty/DenimStrips/DenimStripsDirty,
+
+       Result:FlameTrap,
+       Time:80.0,
+       NeedToBeLearn:true,
+       Category:Engineer,
+       OnTest:Recipe.OnTest.FullPetrolBottle,
+    }
+
+    recipe Make Flame bomb
+    {
+       [Recipe.GetItemTypes.Petrol]=4,
+       RippedSheets/RippedSheetsDirty/DenimStrips/DenimStripsDirty,
+       WaterBottleEmpty,
+
+       Result:FlameTrap,
+       Time:80.0,
+       NeedToBeLearn:true,
+       Category:Engineer,
+    }
